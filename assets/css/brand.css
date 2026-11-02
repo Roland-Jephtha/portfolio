@@ -357,8 +357,8 @@ body {
 
 .jr-hero__lead {
     margin-top: 14px !important;
-    max-width: 34ch;
-    font-size: clamp(19px, 1.9vw, 23px) !important;
+    max-width: 44ch;
+    font-size: clamp(17px, 1.6vw, 20px) !important;
     line-height: 1.45 !important;
     color: var(--jr-ink-2) !important;
 }
