@@ -7,6 +7,26 @@
         jQuery('.jr-form select').niceSelect('destroy');
     }
 
+    // testimonials: main.js shows one slide at a time; replace it with a multi-card carousel
+    var quotes = document.querySelector('.jr-quotes .swiper');
+    if (quotes && window.Swiper) {
+        if (quotes.swiper) quotes.swiper.destroy(true, true);
+        new Swiper(quotes, {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            speed: 700,
+            grabCursor: true,
+            autoplay: { delay: 4500, disableOnInteraction: false, pauseOnMouseEnter: true },
+            navigation: { prevEl: '.jr-quotes__prev', nextEl: '.jr-quotes__next' },
+            pagination: { el: '.jr-quotes .rs-pagination', clickable: true },
+            breakpoints: {
+                768: { slidesPerView: 2, spaceBetween: 24 },
+                1200: { slidesPerView: 3, spaceBetween: 24 }
+            }
+        });
+    }
+
     // scroll reveals
     if (window.AOS) {
         AOS.init({
