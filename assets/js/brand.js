@@ -7,6 +7,18 @@
         jQuery('.jr-form select').niceSelect('destroy');
     }
 
+    // scroll reveals
+    if (window.AOS) {
+        AOS.init({
+            duration: 700,
+            easing: 'ease-out-cubic',
+            offset: 60,
+            once: true,
+            disable: window.matchMedia('(prefers-reduced-motion: reduce)').matches
+        });
+        window.addEventListener('load', function () { AOS.refresh(); });
+    }
+
     // close the mobile menu after picking a link
     var menu = document.querySelector('.jr-menu');
     if (menu) {

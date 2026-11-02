@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Jephtha Roland — Software Engineer</title>
-    <meta name="description" content="Jephtha Roland is a full-stack software engineer in Lagos building web products end to end: React and Next.js front ends, Django and FastAPI backends, and AI features with OpenAI and Gemini.">
+    <meta name="description" content="Jephtha Roland is a full-stack software engineer in Lagos building web products end to end: React and Next.js front ends, Django, FastAPI and NestJS backends, and AI features with OpenAI and Gemini.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#F3F0E8">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/vendor/remixicon.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/brand.css">
 </head>
 
@@ -62,7 +63,7 @@
         <section class="jr jr-hero">
             <div class="jr-wrap">
                 <div class="jr-hero__grid">
-                    <div class="wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <div data-aos="fade-up">
                         <h1 class="jr-hero__title">Jephtha<br>Roland<span>.</span></h1>
                         <p class="jr-hero__role">Full-Stack Software Engineer</p>
                         <p class="jr-hero__lead">I build web products end to end: polished front ends in React and Next.js, and the APIs, databases and AI pipelines behind them.</p>
@@ -75,7 +76,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".8s">
+                    <div data-aos="fade-left" data-aos-delay="200">
                         <div class="jr-term" aria-label="Profile summary as a JSON response">
                             <div class="jr-term__bar"><i></i><i></i><i></i><em>~/jephtha</em></div>
 <pre><span class="p">$</span> whoami --json
@@ -83,10 +84,12 @@
   <span class="k">"name"</span><span class="c">:</span> <span class="s">"Jephtha Roland"</span><span class="c">,</span>
   <span class="k">"role"</span><span class="c">:</span> <span class="s">"Full-Stack Software Engineer"</span><span class="c">,</span>
   <span class="k">"years"</span><span class="c">:</span> <span class="n">5</span><span class="c">,</span>
-  <span class="k">"frontend"</span><span class="c">: [</span><span class="s">"react"</span><span class="c">,</span> <span class="s">"next.js"</span><span class="c">,</span> <span class="s">"react native"</span><span class="c">],</span>
+  <span class="k">"frontend"</span><span class="c">: [</span><span class="s">"react"</span><span class="c">,</span> <span class="s">"next.js"</span><span class="c">,</span>
+               <span class="s">"react native"</span><span class="c">],</span>
   <span class="k">"backend"</span><span class="c">: [</span><span class="s">"django"</span><span class="c">,</span> <span class="s">"fastapi"</span><span class="c">,</span> <span class="s">"nestjs"</span><span class="c">,</span>
               <span class="s">"node"</span><span class="c">,</span> <span class="s">"rust"</span><span class="c">],</span>
-  <span class="k">"langs"</span><span class="c">: [</span><span class="s">"python"</span><span class="c">,</span> <span class="s">"typescript"</span><span class="c">,</span> <span class="s">"rust"</span><span class="c">],</span>
+  <span class="k">"langs"</span><span class="c">: [</span><span class="s">"python"</span><span class="c">,</span> <span class="s">"typescript"</span><span class="c">,</span>
+            <span class="s">"rust"</span><span class="c">],</span>
   <span class="k">"data"</span><span class="c">: [</span><span class="s">"postgres"</span><span class="c">,</span> <span class="s">"pgvector"</span><span class="c">],</span>
   <span class="k">"ai"</span><span class="c">: [</span><span class="s">"openai"</span><span class="c">,</span> <span class="s">"gemini"</span><span class="c">,</span> <span class="s">"opencv"</span><span class="c">],</span>
   <span class="k">"available"</span><span class="c">:</span> <span class="n">true</span>
@@ -96,10 +99,10 @@
                     </div>
                 </div>
                 <div class="jr-stats">
-                    <div class="jr-stat"><strong>5+</strong><span>years shipping</span></div>
-                    <div class="jr-stat"><strong>20+</strong><span>projects delivered</span></div>
-                    <div class="jr-stat"><strong>+35%</strong><span>scan relevance · FoodSnap</span></div>
-                    <div class="jr-stat"><strong>−50%</strong><span>manual ops · automation</span></div>
+                    <div class="jr-stat" data-aos="fade-up" data-aos-delay="0"><strong>5+</strong><span>years shipping</span></div>
+                    <div class="jr-stat" data-aos="fade-up" data-aos-delay="100"><strong>20+</strong><span>projects delivered</span></div>
+                    <div class="jr-stat" data-aos="fade-up" data-aos-delay="200"><strong>+35%</strong><span>scan relevance · FoodSnap</span></div>
+                    <div class="jr-stat" data-aos="fade-up" data-aos-delay="300"><strong>−50%</strong><span>manual ops · automation</span></div>
                 </div>
             </div>
         </section>
@@ -107,7 +110,7 @@
         <!-- work -->
         <section id="homeportfolio" class="jr jr-section">
             <div class="jr-wrap">
-                <div class="jr-section__head">
+                <div class="jr-section__head" data-aos="fade-up">
                     <div>
                         <span class="jr-label">01 — selected work</span>
                         <h2 class="jr-h2">Products I've designed and shipped.</h2>
@@ -115,21 +118,21 @@
                     <p class="jr-section__intro">Most of my best work runs behind a login or inside a client's stack, so where there's nothing public to screenshot, here's how each system fits together.</p>
                 </div>
                 <div class="jr-work">
-                    <article class="jr-case jr-case--feature wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <article class="jr-case jr-case--feature" data-aos="fade-up">
                         <div class="jr-case__visual"><svg class="jr-dia" viewBox="0 0 480 270" role="img" aria-labelledby="ah-food-t"><title id="ah-food-t">FoodSnap pipeline: photo, computer-vision model, embedding, vector index, nutrition result</title><defs><marker id="ah-food" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="head" d="M0,0 L8,4 L0,8 z"/></marker></defs><text class="cap" x="24" y="38">fig.01 · food recognition pipeline</text><path class="flow" d="M150,87 L174,87" marker-end="url(#ah-food)"/><path class="flow" d="M304,87 L328,87" marker-end="url(#ah-food)"/><path class="flow" d="M394,112 L394,166" marker-end="url(#ah-food)"/><path class="flow" d="M330,193 L306,193" marker-end="url(#ah-food)"/><rect class="node" x="24" y="64" width="124" height="46" rx="2"/><text class="t" x="36" y="84">photo</text><text class="st" x="36" y="100">user upload</text><rect class="node" x="178" y="64" width="124" height="46" rx="2"/><text class="t" x="190" y="84">cv model</text><text class="st" x="190" y="100">detect food</text><rect class="node" x="332" y="64" width="124" height="46" rx="2"/><text class="t" x="344" y="84">embedding</text><text class="st" x="344" y="100">image → vector</text><rect class="node" x="332" y="170" width="124" height="46" rx="2"/><text class="t" x="344" y="190">vector index</text><text class="st" x="344" y="206">nearest match</text><rect class="node node--end" x="178" y="170" width="124" height="46" rx="2"/><text class="t t--inv" x="190" y="190">nutrition</text><text class="st st--inv" x="190" y="206">matched result</text></svg></div>
                         <div class="jr-case__body">
-                            <div class="jr-case__meta"><span class="jr-case__index">01</span><span class="jr-tag">Computer Vision</span><span class="jr-tag">Vector Search</span><span class="jr-tag">Django</span><span class="jr-tag">Next.js</span></div>
+                            <div class="jr-case__meta"><span class="jr-case__index">01</span><span class="jr-tag">Computer Vision</span><span class="jr-tag">Vector Search</span><span class="jr-tag">NestJS</span><span class="jr-tag">Next.js</span></div>
                             <h3 class="jr-case__title">FoodSnap</h3>
                             <p class="jr-case__desc">An AI food-recognition platform I architected and built from the ground up as lead developer at Bwintech. Snap a meal, get it identified and matched to nutrition data.</p>
                             <ul class="jr-case__points">
                                 <li><strong>+35%</strong> scan relevance and recognition accuracy from the vector indexing pipeline</li>
-                                <li><strong>−20%</strong> API response times across the Django REST backend</li>
+                                <li><strong>−20%</strong> API response times across the NestJS backend</li>
                                 <li>Next.js front end, integrated end to end</li>
                             </ul>
                             <div class="jr-case__foot"><span class="jr-muted">Private · built at Bwintech</span><a href="#homecontact">Ask me about it <span class="jr-arrow" aria-hidden="true">→</span></a></div>
                         </div>
                     </article>
-                    <article class="jr-case wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <article class="jr-case" data-aos="fade-up">
                         <div class="jr-case__visual"><svg class="jr-dia" viewBox="0 0 480 270" role="img" aria-labelledby="ah-rag-t"><title id="ah-rag-t">Knowledge assistant pipeline: documents, chunking, Gemini embeddings, pgvector search, grounded answer with citations</title><defs><marker id="ah-rag" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="head" d="M0,0 L8,4 L0,8 z"/></marker></defs><text class="cap" x="24" y="38">fig.02 · retrieval-augmented q&amp;a</text><path class="flow" d="M150,87 L174,87" marker-end="url(#ah-rag)"/><path class="flow" d="M304,87 L328,87" marker-end="url(#ah-rag)"/><path class="flow" d="M394,112 L394,166" marker-end="url(#ah-rag)"/><path class="flow" d="M330,193 L306,193" marker-end="url(#ah-rag)"/><path class="flow" d="M176,193 L152,193" marker-end="url(#ah-rag)"/><rect class="node" x="24" y="64" width="124" height="46" rx="2"/><text class="t" x="36" y="84">documents</text><text class="st" x="36" y="100">pdf · text</text><rect class="node" x="178" y="64" width="124" height="46" rx="2"/><text class="t" x="190" y="84">chunker</text><text class="st" x="190" y="100">split + clean</text><rect class="node" x="332" y="64" width="124" height="46" rx="2"/><text class="t" x="344" y="84">embeddings</text><text class="st" x="344" y="100">gemini</text><rect class="node" x="332" y="170" width="124" height="46" rx="2"/><text class="t" x="344" y="190">pgvector</text><text class="st" x="344" y="206">top-k search</text><rect class="node" x="178" y="170" width="124" height="46" rx="2"/><text class="t" x="190" y="190">llm</text><text class="st" x="190" y="206">grounded answer</text><rect class="node node--end" x="24" y="170" width="124" height="46" rx="2"/><text class="t t--inv" x="36" y="190">response</text><text class="st st--inv" x="36" y="206">+ citations</text></svg></div>
                         <div class="jr-case__body">
                             <div class="jr-case__meta"><span class="jr-case__index">02</span><span class="jr-tag">FastAPI</span><span class="jr-tag">Gemini</span><span class="jr-tag">pgvector</span><span class="jr-tag">RAG</span></div>
@@ -138,7 +141,7 @@
                             <div class="jr-case__foot"><span class="jr-muted">Source on request</span><a href="https://github.com/Roland-Jephtha" target="_blank" rel="noopener">GitHub <span class="jr-arrow" aria-hidden="true">→</span></a></div>
                         </div>
                     </article>
-                    <article class="jr-case wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <article class="jr-case" data-aos="fade-up" data-aos-delay="100">
                         <div class="jr-case__visual"><svg class="jr-dia" viewBox="0 0 480 270" role="img" aria-labelledby="ah-face-t"><title id="ah-face-t">Facial recognition pipeline: camera, OpenCV preprocessing, DeepFace embedding, matcher, Django auth API</title><defs><marker id="ah-face" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="head" d="M0,0 L8,4 L0,8 z"/></marker></defs><text class="cap" x="24" y="38">fig.03 · face authentication</text><path class="flow" d="M150,87 L174,87" marker-end="url(#ah-face)"/><path class="flow" d="M304,87 L328,87" marker-end="url(#ah-face)"/><path class="flow" d="M394,112 L394,166" marker-end="url(#ah-face)"/><path class="flow" d="M330,193 L306,193" marker-end="url(#ah-face)"/><rect class="node" x="24" y="64" width="124" height="46" rx="2"/><text class="t" x="36" y="84">camera</text><text class="st" x="36" y="100">frame capture</text><rect class="node" x="178" y="64" width="124" height="46" rx="2"/><text class="t" x="190" y="84">opencv</text><text class="st" x="190" y="100">preprocess</text><rect class="node" x="332" y="64" width="124" height="46" rx="2"/><text class="t" x="344" y="84">deepface</text><text class="st" x="344" y="100">face embedding</text><rect class="node" x="332" y="170" width="124" height="46" rx="2"/><text class="t" x="344" y="190">matcher</text><text class="st" x="344" y="206">compare + score</text><rect class="node node--end" x="178" y="170" width="124" height="46" rx="2"/><text class="t t--inv" x="190" y="190">auth api</text><text class="st st--inv" x="190" y="206">django</text></svg></div>
                         <div class="jr-case__body">
                             <div class="jr-case__meta"><span class="jr-case__index">03</span><span class="jr-tag">DeepFace</span><span class="jr-tag">OpenCV</span><span class="jr-tag">TensorFlow</span><span class="jr-tag">Django</span></div>
@@ -147,7 +150,7 @@
                             <div class="jr-case__foot"><span class="jr-muted">Source on request</span><a href="https://github.com/Roland-Jephtha" target="_blank" rel="noopener">GitHub <span class="jr-arrow" aria-hidden="true">→</span></a></div>
                         </div>
                     </article>
-                    <article class="jr-case jr-case--feature jr-case--flip wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <article class="jr-case jr-case--feature jr-case--flip" data-aos="fade-up">
                         <div class="jr-case__visual"><svg class="jr-dia" viewBox="0 0 480 270" role="img" aria-labelledby="ah-flow-t"><title id="ah-flow-t">Automation flow: website event, webhook, Make.com router, then email and Google Drive folder</title><defs><marker id="ah-flow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="head" d="M0,0 L8,4 L0,8 z"/></marker></defs><text class="cap" x="24" y="38">fig.04 · event automation</text><path class="flow" d="M150,87 L174,87" marker-end="url(#ah-flow)"/><path class="flow" d="M304,87 L328,87" marker-end="url(#ah-flow)"/><path class="flow" d="M394,112 L394,166" marker-end="url(#ah-flow)"/><path class="flow" d="M366,112 C366,142 240,138 240,166" marker-end="url(#ah-flow)"/><rect class="node" x="24" y="64" width="124" height="46" rx="2"/><text class="t" x="36" y="84">website</text><text class="st" x="36" y="100">form event</text><rect class="node" x="178" y="64" width="124" height="46" rx="2"/><text class="t" x="190" y="84">webhook</text><text class="st" x="190" y="100">trigger</text><rect class="node" x="332" y="64" width="124" height="46" rx="2"/><text class="t" x="344" y="84">make.com</text><text class="st" x="344" y="100">router + rules</text><rect class="node node--end" x="332" y="170" width="124" height="46" rx="2"/><text class="t t--inv" x="344" y="190">email</text><text class="st st--inv" x="344" y="206">auto-send</text><rect class="node node--end" x="178" y="170" width="124" height="46" rx="2"/><text class="t t--inv" x="190" y="190">drive</text><text class="st st--inv" x="190" y="206">new folder</text></svg></div>
                         <div class="jr-case__body">
                             <div class="jr-case__meta"><span class="jr-case__index">04</span><span class="jr-tag">Make.com</span><span class="jr-tag">Webhooks</span><span class="jr-tag">Google Drive</span></div>
@@ -156,8 +159,8 @@
                             <div class="jr-case__foot"><span class="jr-muted">Source on request</span><a href="https://github.com/Roland-Jephtha" target="_blank" rel="noopener">GitHub <span class="jr-arrow" aria-hidden="true">→</span></a></div>
                         </div>
                     </article>
-                    <div class="jr-work__sub">earlier client work</div>
-                    <article class="jr-case wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <div class="jr-work__sub" data-aos="fade-right">earlier client work</div>
+                    <article class="jr-case" data-aos="fade-up" data-aos-delay="100">
                         <div class="jr-case__visual"><div class="jr-browser"><div class="jr-browser__bar"><i></i><i></i><i></i><span>nerostore.vercel.app</span></div><img src="assets/images/nerostoresite.PNG" alt="NeroStore homepage" loading="lazy"></div></div>
                         <div class="jr-case__body">
                             <div class="jr-case__meta"><span class="jr-case__index">05</span><span class="jr-tag">E-commerce</span><span class="jr-tag">Next.js</span></div>
@@ -166,7 +169,7 @@
                             <div class="jr-case__foot"><span class="jr-muted">Live</span><a href="https://nerostore.vercel.app/" target="_blank" rel="noopener">Visit site <span class="jr-arrow" aria-hidden="true">→</span></a></div>
                         </div>
                     </article>
-                    <article class="jr-case wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <article class="jr-case" data-aos="fade-up">
                         <div class="jr-case__visual"><div class="jr-browser"><div class="jr-browser__bar"><i></i><i></i><i></i><span>codehashira.pythonanywhere.com/redoc</span></div><img src="assets/images/api.png" alt="CodeHashira API documentation" loading="lazy"></div></div>
                         <div class="jr-case__body">
                             <div class="jr-case__meta"><span class="jr-case__index">06</span><span class="jr-tag">Django REST Framework</span><span class="jr-tag">OpenAPI</span></div>
@@ -175,7 +178,7 @@
                             <div class="jr-case__foot"><span class="jr-muted">Live</span><a href="https://codehashira.pythonanywhere.com/redoc" target="_blank" rel="noopener">Read the docs <span class="jr-arrow" aria-hidden="true">→</span></a></div>
                         </div>
                     </article>
-                    <article class="jr-case wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <article class="jr-case" data-aos="fade-up" data-aos-delay="100">
                         <div class="jr-case__visual"><div class="jr-browser"><div class="jr-browser__bar"><i></i><i></i><i></i><span>metroexp.pythonanywhere.com</span></div><img src="assets/images/couroer.PNG" alt="MetroExpress Courier homepage" loading="lazy"></div></div>
                         <div class="jr-case__body">
                             <div class="jr-case__meta"><span class="jr-case__index">07</span><span class="jr-tag">Django</span><span class="jr-tag">Logistics</span></div>
@@ -184,7 +187,7 @@
                             <div class="jr-case__foot"><span class="jr-muted">Live</span><a href="https://metroexp.pythonanywhere.com/" target="_blank" rel="noopener">Visit site <span class="jr-arrow" aria-hidden="true">→</span></a></div>
                         </div>
                     </article>
-                    <article class="jr-case wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <article class="jr-case" data-aos="fade-up">
                         <div class="jr-case__visual"><div class="jr-browser"><div class="jr-browser__bar"><i></i><i></i><i></i><span>maryfoods.pythonanywhere.com</span></div><img src="assets/images/fast.PNG" alt="Mary Foods homepage" loading="lazy"></div></div>
                         <div class="jr-case__body">
                             <div class="jr-case__meta"><span class="jr-case__index">08</span><span class="jr-tag">Django</span><span class="jr-tag">Hospitality</span></div>
@@ -200,7 +203,7 @@
         <!-- experience -->
         <section id="homeabout" class="jr jr-section">
             <div class="jr-wrap">
-                <div class="jr-section__head">
+                <div class="jr-section__head" data-aos="fade-up">
                     <div>
                         <span class="jr-label">02 — experience</span>
                         <h2 class="jr-h2">Where I've worked.</h2>
@@ -208,15 +211,15 @@
                     <p class="jr-section__intro">Five years of full-stack and backend engineering for teams in Nigeria and the UK.</p>
                 </div>
                 <ol class="jr-log">
-                    <li class="jr-log__item wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <li class="jr-log__item" data-aos="fade-up">
                         <div class="jr-log__date">2026.02</div>
                         <div>
                             <h3 class="jr-log__role">Software Engineer — AI / Full-Stack</h3>
                             <p class="jr-log__org">@ <b>Bwintech</b></p>
-                            <ul class="jr-log__list"><li>Led FoodSnap from the first commit: an AI food-recognition platform built on computer vision and vector indexing.</li><li>Built vector search and indexing pipelines that lifted scan relevance and recognition accuracy by 35%.</li><li>Shipped Django REST APIs and Next.js interfaces, cutting API response times by 20%.</li><li>Automated operations with Make.com, webhooks and Google Drive, halving manual overhead.</li></ul>
+                            <ul class="jr-log__list"><li>Led FoodSnap from the first commit: an AI food-recognition platform built on computer vision and vector indexing.</li><li>Built vector search and indexing pipelines that lifted scan relevance and recognition accuracy by 35%.</li><li>Shipped NestJS APIs and Next.js interfaces, cutting API response times by 20%.</li><li>Automated operations with Make.com, webhooks and Google Drive, halving manual overhead.</li></ul>
                         </div>
                     </li>
-                    <li class="jr-log__item wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <li class="jr-log__item" data-aos="fade-up">
                         <div class="jr-log__date">2025.08</div>
                         <div>
                             <h3 class="jr-log__role">Senior Backend Engineer</h3>
@@ -224,7 +227,7 @@
                             <ul class="jr-log__list"><li>Owned server-side business logic, data structures and APIs for property-management workflows in Python and Django.</li><li>Reviewed and merged pull requests to keep quality and conventions consistent across the team.</li><li>Integrated the backend with the Flutter client for clean data exchange.</li></ul>
                         </div>
                     </li>
-                    <li class="jr-log__item wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <li class="jr-log__item" data-aos="fade-up">
                         <div class="jr-log__date">2025.02</div>
                         <div>
                             <h3 class="jr-log__role">Backend Software Engineer</h3>
@@ -232,7 +235,7 @@
                             <ul class="jr-log__list"><li>Built high-throughput REST APIs for chat, feeds, media sharing and social graphs.</li><li>Designed PostgreSQL schemas for high-frequency messaging, notifications and user relationships.</li><li>Implemented token auth and WebSocket channels for instant messaging and live activity.</li></ul>
                         </div>
                     </li>
-                    <li class="jr-log__item wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <li class="jr-log__item" data-aos="fade-up">
                         <div class="jr-log__date">2023.01</div>
                         <div>
                             <h3 class="jr-log__role">Backend Developer</h3>
@@ -242,19 +245,19 @@
                     </li>
                 </ol>
                 <div class="jr-edu">
-                    <div class="jr-edu__card">
+                    <div class="jr-edu__card" data-aos="fade-up" data-aos-delay="0">
                         <span class="jr-edu__k">Education · 2025</span>
                         <h3>HND, Computer Science</h3>
                         <p>Petroleum Training Institute</p>
                         <span class="jr-badge">Distinction</span>
                     </div>
-                    <div class="jr-edu__card">
+                    <div class="jr-edu__card" data-aos="fade-up" data-aos-delay="100">
                         <span class="jr-edu__k">Education · 2022</span>
                         <h3>OND, Computer Science</h3>
                         <p>Petroleum Training Institute</p>
                         <span class="jr-badge">Distinction</span>
                     </div>
-                    <div class="jr-edu__card">
+                    <div class="jr-edu__card" data-aos="fade-up" data-aos-delay="200">
                         <span class="jr-edu__k">Certifications · Udemy</span>
                         <h3>API Development</h3>
                         <p>Python &amp; Django Developer · Complete Python Masterclass</p>
@@ -592,7 +595,7 @@
         <!-- services -->
         <section id="homeservices" class="jr jr-section">
             <div class="jr-wrap">
-                <div class="jr-section__head">
+                <div class="jr-section__head" data-aos="fade-up">
                     <div>
                         <span class="jr-label">04 — how i can help</span>
                         <h2 class="jr-h2">Bring me in for…</h2>
@@ -600,22 +603,22 @@
                     <p class="jr-section__intro">From the database schema to the screen, plus the AI and automation layers in between.</p>
                 </div>
                 <div class="jr-svc">
-                    <div class="jr-svc__item wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                    <div class="jr-svc__item" data-aos="fade-up">
                         <span class="jr-svc__n">01</span>
                         <h3>Full-stack web apps</h3>
-                        <p>Responsive, accessible interfaces in React and Next.js on the front, Django or FastAPI on the back, taken from first sketch and schema to deployment.</p>
+                        <p>Responsive, accessible interfaces in React and Next.js on the front, Django, FastAPI or NestJS on the back, taken from first sketch and schema to deployment.</p>
                     </div>
-                    <div class="jr-svc__item wow fadeInUp" data-wow-delay=".2s" data-wow-duration=".8s">
+                    <div class="jr-svc__item" data-aos="fade-up" data-aos-delay="100">
                         <span class="jr-svc__n">02</span>
                         <h3>APIs &amp; real-time backends</h3>
                         <p>REST and WebSocket services for chat, feeds and notifications, with token auth and role-based access built in and queries tuned for speed.</p>
                     </div>
-                    <div class="jr-svc__item wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".8s">
+                    <div class="jr-svc__item" data-aos="fade-up" data-aos-delay="200">
                         <span class="jr-svc__n">03</span>
                         <h3>AI-powered features</h3>
                         <p>I add OpenAI or Gemini to new and existing products: document Q&amp;A with RAG and pgvector, image recognition with DeepFace and OpenCV, and vector search that returns relevant results.</p>
                     </div>
-                    <div class="jr-svc__item wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".8s">
+                    <div class="jr-svc__item" data-aos="fade-up" data-aos-delay="300">
                         <span class="jr-svc__n">04</span>
                         <h3>Workflow automation</h3>
                         <p>I connect your website, inbox and Google Drive with Make.com and webhooks, so routine work runs automatically.</p>
@@ -630,7 +633,7 @@
                 <div>
                     <span class="jr-label">05 — kind words</span>
                 </div>
-                <div class="wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">
+                <div data-aos="fade-up">
                     <div class="swiper testimonial_active_two">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -671,7 +674,7 @@
         <!-- contact -->
         <section id="homecontact" class="jr jr-section jr-contact">
             <div class="jr-wrap jr-contact__grid">
-                <div>
+                <div data-aos="fade-right">
                     <span class="jr-label">06 — contact</span>
                     <h2 class="jr-h2">Have something to build?</h2>
                     <p class="jr-section__intro jr-contact__intro">Tell me about the project or the role. I usually reply within a day.</p>
@@ -683,7 +686,7 @@
                         <li><span>linkedin</span><a href="https://linkedin.com/in/jephtha-roland-6a6093200" target="_blank" rel="noopener">jephtha-roland</a></li>
                     </ul>
                 </div>
-                <div>
+                <div data-aos="fade-left" data-aos-delay="100">
                     <form id="contact-form" class="jr-form" action="assets/mailer.php" method="POST">
                         <div>
                             <label for="name">Name</label>
@@ -768,6 +771,7 @@
     <script src="assets/js/plugins/parallax-effect.min.js"></script>
     <script src="assets/js/vendor/purecounter.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="assets/js/brand.js"></script>
 </body>
 

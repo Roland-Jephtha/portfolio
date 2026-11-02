@@ -1358,3 +1358,61 @@ body {
         border-left: 1px solid var(--jr-line-strong);
     }
 }
+
+/* ---------- mobile overflow ---------- */
+/* grid children default to min-width:auto, so the terminal's long lines widened the hero */
+.jr-hero__grid > *,
+.jr-work > *,
+.jr-log__item > * {
+    min-width: 0;
+}
+
+/* template's theme switcher panel (not used) sits off-canvas and widens the page */
+.rs-theme-settings-area {
+    display: none !important;
+}
+
+html,
+body {
+    overflow-x: clip;
+}
+
+@media (max-width: 991px) {
+    .jr-hero__grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+@media (max-width: 575px) {
+    .jr-term {
+        font-size: 11px;
+        box-shadow: 6px 6px 0 var(--jr-signal);
+    }
+
+    .jr-term pre {
+        padding: 16px 16px 20px;
+    }
+
+    .jr-term {
+        margin-right: 6px;
+    }
+
+    .jr-btn {
+        height: 44px;
+        padding: 0 18px;
+    }
+
+    .jr-contact__list li {
+        grid-template-columns: 76px minmax(0, 1fr);
+    }
+}
+
+.jr-case__foot a {
+    white-space: nowrap;
+}
+
+/* AOS slides would push past the screen edge before they settle */
+[data-aos="fade-left"],
+[data-aos="fade-right"] {
+    will-change: transform, opacity;
+}
